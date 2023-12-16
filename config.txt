@@ -1,0 +1,9 @@
+
+# 你的助记词
+MNEMONIC=table jungle security cargo
+# 是否为测试网，测试网为 true, 主网为 false
+IS_TESTNET=true
+# rpc的apikey,如果一直报错可以去 https://t.me/tonapibot 申请新的key
+API_KEY=
+# 铭文目标地址，填你自己的ton收款地址
+TO_ADDRESS=UQC9Q5w33dGVyPVVgUct_tRmYQ-JmayerW0IxN0Gf2cTtiQP
