@@ -16,7 +16,7 @@ async function main() {
     // const mnemonic = "xx xx";
 
     const key = await mnemonicToWalletKey(mnemonic!.split(" "));
-    const IS_TESTNET = process.env.IS_TESTNET;
+    const IS_TESTNET = process.env.IS_TESTNET === "true";
     const API_KEY = process.env.API_KEY;
     const TONCENTER_API_KEY = IS_TESTNET ? API_KEY : API_KEY; // obtain on https://toncenter.com
     // You can use your own instance of TON-HTTP-API or public toncenter.com
